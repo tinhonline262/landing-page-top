@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #e5e7eb;
+  background-color: #1f2937;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+.container {
+  max-width: 110rem;
+  margin: 0 auto;
+  display: flex;
+}
+.btn {
+  padding: 0.8rem 3.2rem;
+  border-radius: 1rem;
+  font-size: 18px;
+  font-weight: 700;
+  border: 0;
+}
+.info-section {
+  background-color: #fff;
+}
+.quote-section {
+  background-color: #e5e7eb;
+}
+.cta-section {
+  background-color: #fff;
+  padding: 10rem 0;
+}
+footer {
+  padding: 4rem;
+}

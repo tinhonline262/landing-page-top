@@ -1,0 +1,136 @@
+.header {
+  justify-content: space-between;
+  padding: 1.8rem 0;
+  align-items: center;
+}
+.nav__links {
+  display: flex;
+  gap: 2rem;
+}
+.logo {
+  font-size: 2.4rem;
+  color: #f9faf8;
+  font-weight: 800;
+}
+.nav__links--item a {
+  font-size: 1.8rem;
+  color: #e5e7eb;
+  font-weight: 300;
+}
+.hero {
+  gap: 4rem;
+  height: 30rem;
+  margin: 10rem auto;
+  align-items: center;
+}
+.hero__text-box {
+  flex: 2;
+}
+.hero__img-box {
+  flex: 3;
+  width: 100%; /* or whatever width you want */
+  height: 100%; /* or whatever height you want */
+}
+
+.hero__img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* maintains aspect ratio while filling the container */
+}
+.hero__primary-heading {
+  font-size: 4.8rem;
+  font-weight: 900;
+  line-height: 1.2;
+}
+.hero__description {
+  font-size: 18px;
+  color: #e5e7eb;
+  line-height: 1.1;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.hero__cta {
+  background-color: #3882f6;
+  color: #fff;
+  border: 0;
+}
+.info {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 10rem;
+}
+.info__heading {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin: 5rem auto;
+}
+.info__list-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+.info__description {
+  font-size: 1.8rem;
+  color: #1f2937;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 17rem;
+}
+.image-box {
+  width: inherit;
+  height: 17rem;
+  border: 0.4rem solid #3882f6;
+  border-radius: 1rem;
+}
+.quotation {
+  padding: 12rem 16rem;
+  flex-direction: column;
+}
+.quotation blockquote {
+  color: #1f2937;
+  font-size: 3.6rem;
+  font-style: italic;
+  font-weight: 200;
+  line-height: 1.2;
+}
+.author {
+  color: #1f2937;
+  text-align: end;
+  font-size: 2.7rem;
+}
+.cta {
+  background-color: #3882f6;
+  color: #fff;
+  padding: 5rem 10rem;
+  border-radius: 1rem;
+  justify-content: space-between;
+}
+
+.cta__title--heading {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+.cta__title--subheading {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+.cta-btn {
+  background-color: #3882f6;
+  color: #fff;
+  border: 0.2rem solid #fff;
+  padding: 0.4rem 3rem;
+}
+.footer {
+  justify-content: center;
+}
+.footer__heading {
+  font-size: 1.8rem;
+}
